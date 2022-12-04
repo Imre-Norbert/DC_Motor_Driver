@@ -1,0 +1,570 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<export version="E">
+  <design>
+    <source>C:\Users\ghost\Desktop\GN\DC MOTOR DRIVER\KiCAD\DCMotorDriver\DCMotorDriver.kicad_sch</source>
+    <date>10/6/2022 6:25:36 PM</date>
+    <tool>Eeschema (6.0.8)</tool>
+    <sheet number="1" name="/" tstamps="/">
+      <title_block>
+        <title>DC Motor Driver</title>
+        <company>G.I.N.</company>
+        <rev>1.0</rev>
+        <date>2022-10-06</date>
+        <source>DCMotorDriver.kicad_sch</source>
+        <comment number="1" value=""/>
+        <comment number="2" value=""/>
+        <comment number="3" value=""/>
+        <comment number="4" value=""/>
+        <comment number="5" value=""/>
+        <comment number="6" value=""/>
+        <comment number="7" value=""/>
+        <comment number="8" value=""/>
+        <comment number="9" value=""/>
+      </title_block>
+    </sheet>
+  </design>
+  <components>
+    <comp ref="C1">
+      <value>100n</value>
+      <footprint>Capacitor_THT:C_Rect_L9.0mm_W2.5mm_P7.50mm_MKT</footprint>
+      <libsource lib="pspice" part="C" description="Capacitor symbol for simulation only"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="File: DCMotorDriver.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>9ead7f1b-cf43-4371-990c-7a90ada6088b</tstamps>
+    </comp>
+    <comp ref="C2">
+      <value>100n</value>
+      <footprint>Capacitor_THT:C_Rect_L9.0mm_W2.5mm_P7.50mm_MKT</footprint>
+      <libsource lib="pspice" part="C" description="Capacitor symbol for simulation only"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="File: DCMotorDriver.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>21486239-89d5-48af-8c0c-2dc68c7c27f7</tstamps>
+    </comp>
+    <comp ref="C3">
+      <value>100n</value>
+      <footprint>Capacitor_THT:C_Rect_L9.0mm_W2.5mm_P7.50mm_MKT</footprint>
+      <libsource lib="pspice" part="C" description="Capacitor symbol for simulation only"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="File: DCMotorDriver.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>7f337851-0f5a-4e96-b488-8a7c2f4130f6</tstamps>
+    </comp>
+    <comp ref="C4">
+      <value>100uF/25V</value>
+      <footprint>Capacitor_THT:C_Radial_D6.3mm_H11.0mm_P2.50mm</footprint>
+      <libsource lib="pspice" part="C" description="Capacitor symbol for simulation only"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="File: DCMotorDriver.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>cde40831-b62b-463c-84ef-1b3d7480ed5d</tstamps>
+    </comp>
+    <comp ref="C5">
+      <value>100uF/25V</value>
+      <footprint>Capacitor_THT:C_Radial_D6.3mm_H11.0mm_P2.50mm</footprint>
+      <libsource lib="pspice" part="C" description="Capacitor symbol for simulation only"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="File: DCMotorDriver.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>64b4b2d1-0d9c-4ff8-8dc9-0dca529a554b</tstamps>
+    </comp>
+    <comp ref="C6">
+      <value>1.5nF</value>
+      <footprint>Capacitor_THT:C_Rect_L9.0mm_W2.5mm_P7.50mm_MKT</footprint>
+      <libsource lib="pspice" part="C" description="Capacitor symbol for simulation only"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="File: DCMotorDriver.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>2aa369fc-ddf0-4eb9-80ee-9a572d43c426</tstamps>
+    </comp>
+    <comp ref="D1">
+      <value>1N5401K-DIO</value>
+      <footprint>Diode_THT:D_DO-41_SOD81_P12.70mm_Horizontal</footprint>
+      <datasheet>http://www.vishay.com/docs/88503/1n4001.pdf</datasheet>
+      <libsource lib="Diode" part="1N4001" description="50V 1A General Purpose Rectifier Diode, DO-41"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="File: DCMotorDriver.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>7d57dc21-a8c4-484f-af0b-7e730c33f902</tstamps>
+    </comp>
+    <comp ref="D2">
+      <value>1N4001</value>
+      <footprint>Diode_THT:D_DO-41_SOD81_P10.16mm_Horizontal</footprint>
+      <datasheet>http://www.vishay.com/docs/88503/1n4001.pdf</datasheet>
+      <libsource lib="Diode" part="1N4001" description="50V 1A General Purpose Rectifier Diode, DO-41"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="File: DCMotorDriver.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>11400783-b10b-46ba-9b9e-9a60a4bbd402</tstamps>
+    </comp>
+    <comp ref="D3">
+      <value>1N4001</value>
+      <footprint>Diode_THT:D_DO-41_SOD81_P10.16mm_Horizontal</footprint>
+      <datasheet>http://www.vishay.com/docs/88503/1n4001.pdf</datasheet>
+      <libsource lib="Diode" part="1N4001" description="50V 1A General Purpose Rectifier Diode, DO-41"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="File: DCMotorDriver.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>f054fa6f-fe8b-4ebe-9825-539497bf6103</tstamps>
+    </comp>
+    <comp ref="D4">
+      <value>1N4001</value>
+      <footprint>Diode_THT:D_DO-41_SOD81_P10.16mm_Horizontal</footprint>
+      <datasheet>http://www.vishay.com/docs/88503/1n4001.pdf</datasheet>
+      <libsource lib="Diode" part="1N4001" description="50V 1A General Purpose Rectifier Diode, DO-41"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="File: DCMotorDriver.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>117f110c-cbc4-4921-be69-fdb7521a4c7c</tstamps>
+    </comp>
+    <comp ref="D5">
+      <value>LED</value>
+      <footprint>LED_THT:LED_D5.0mm</footprint>
+      <libsource lib="Device" part="LED" description="Light emitting diode"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="File: DCMotorDriver.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>74f35f77-7fc2-459c-b21d-fb9752db987a</tstamps>
+    </comp>
+    <comp ref="IC1">
+      <value>IXDN609PI</value>
+      <footprint>Package_DIP:DIP-8_W7.62mm</footprint>
+      <datasheet>http://www.ixysic.com/home/pdfs.nsf/www/IXD_609.pdf/$file/IXD_609.pdf</datasheet>
+      <fields>
+        <field name="Arrow Part Number">IXDN609PI</field>
+        <field name="Arrow Price/Stock">https://www.arrow.com/en/products/ixdn609pi/littelfuse?region=nac</field>
+        <field name="Description">Gate Drivers 9-Ampere Low-Side Ultrafast MOSFET</field>
+        <field name="Height">4.064</field>
+        <field name="Manufacturer_Name">LITTELFUSE</field>
+        <field name="Manufacturer_Part_Number">IXDN609PI</field>
+        <field name="Mouser Part Number">849-IXDN609PI</field>
+        <field name="Mouser Price/Stock">https://www.mouser.co.uk/ProductDetail/IXYS-Integrated-Circuits/IXDN609PI?qs=8uBHJDVwVqxYtGF1oyTFaw%3D%3D</field>
+      </fields>
+      <libsource lib="IXDN609PI" part="IXDN609PI" description="Gate Drivers 9-Ampere Low-Side Ultrafast MOSFET"/>
+      <property name="Description" value="Gate Drivers 9-Ampere Low-Side Ultrafast MOSFET"/>
+      <property name="Height" value="4.064"/>
+      <property name="Manufacturer_Name" value="LITTELFUSE"/>
+      <property name="Manufacturer_Part_Number" value="IXDN609PI"/>
+      <property name="Mouser Part Number" value="849-IXDN609PI"/>
+      <property name="Mouser Price/Stock" value="https://www.mouser.co.uk/ProductDetail/IXYS-Integrated-Circuits/IXDN609PI?qs=8uBHJDVwVqxYtGF1oyTFaw%3D%3D"/>
+      <property name="Arrow Part Number" value="IXDN609PI"/>
+      <property name="Arrow Price/Stock" value="https://www.arrow.com/en/products/ixdn609pi/littelfuse?region=nac"/>
+      <property name="Mouser Testing Part Number" value=""/>
+      <property name="Mouser Testing Price/Stock" value=""/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="File: DCMotorDriver.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>0da3e0e0-df9c-4a73-ab27-b4b96585bb6d</tstamps>
+    </comp>
+    <comp ref="J1">
+      <value>DC motor</value>
+      <footprint>Connector_JST:JST_NV_B02P-NV_1x02_P5.00mm_Vertical</footprint>
+      <libsource lib="Connector" part="Conn_01x02_Female" description="Generic connector, single row, 01x02, script generated (kicad-library-utils/schlib/autogen/connector/)"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="File: DCMotorDriver.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>42430fb6-4f9e-43fa-b570-b7baf3f0cfef</tstamps>
+    </comp>
+    <comp ref="J2">
+      <value>Control circuit power supply connector</value>
+      <footprint>Connector_JST:JST_NV_B02P-NV_1x02_P5.00mm_Vertical</footprint>
+      <libsource lib="Connector" part="Conn_01x02_Female" description="Generic connector, single row, 01x02, script generated (kicad-library-utils/schlib/autogen/connector/)"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="File: DCMotorDriver.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>6ef1c65d-7247-4014-b820-c81c76f46849</tstamps>
+    </comp>
+    <comp ref="J3">
+      <value>Power supply connector for the motor</value>
+      <footprint>Connector_JST:JST_NV_B02P-NV_1x02_P5.00mm_Vertical</footprint>
+      <libsource lib="Connector" part="Conn_01x02_Female" description="Generic connector, single row, 01x02, script generated (kicad-library-utils/schlib/autogen/connector/)"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="File: DCMotorDriver.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>994c24de-a928-49b5-8bc1-e3639b6a2049</tstamps>
+    </comp>
+    <comp ref="Q1">
+      <value>IRFZ44E</value>
+      <footprint>Package_TO_SOT_THT:TO-220-3_Vertical</footprint>
+      <libsource lib="Device" part="Q_NMOS_DGS" description="N-MOSFET transistor, drain/gate/source"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="File: DCMotorDriver.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>e1aaad37-2dab-4187-a2e7-b89530c9a1e5</tstamps>
+    </comp>
+    <comp ref="R1">
+      <value>2.2 / 1W</value>
+      <footprint>Resistor_THT:R_Axial_DIN0204_L3.6mm_D1.6mm_P7.62mm_Horizontal</footprint>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="File: DCMotorDriver.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>bebb197b-b56e-4316-b3b8-757b494b9d41</tstamps>
+    </comp>
+    <comp ref="R2">
+      <value>1k</value>
+      <footprint>Resistor_THT:R_Axial_DIN0204_L3.6mm_D1.6mm_P5.08mm_Horizontal</footprint>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="File: DCMotorDriver.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>6fc6da0f-ab1d-4c3b-91db-00dc72aa2f6e</tstamps>
+    </comp>
+    <comp ref="R3">
+      <value>1.2k</value>
+      <footprint>Resistor_THT:R_Axial_DIN0204_L3.6mm_D1.6mm_P5.08mm_Horizontal</footprint>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="File: DCMotorDriver.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>378b7330-eeb9-4bd6-a702-bba6171b615f</tstamps>
+    </comp>
+    <comp ref="R4">
+      <value>5,6k</value>
+      <footprint>Resistor_THT:R_Axial_DIN0204_L3.6mm_D1.6mm_P5.08mm_Horizontal</footprint>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="File: DCMotorDriver.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>a95fdb51-7849-4388-9d52-fb141a46e9cd</tstamps>
+    </comp>
+    <comp ref="R5">
+      <value>740</value>
+      <footprint>Resistor_THT:R_Axial_DIN0204_L3.6mm_D1.6mm_P5.08mm_Horizontal</footprint>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="File: DCMotorDriver.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>7c9a0c75-8f8e-49a6-8251-81ad83343852</tstamps>
+    </comp>
+    <comp ref="RV1">
+      <value>47k</value>
+      <footprint>Potentiometer_THT:Potentiometer_Piher_T-16H_Single_Horizontal</footprint>
+      <libsource lib="Device" part="R_Potentiometer" description="Potentiometer"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="File: DCMotorDriver.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>3b1059ad-c9d9-43ab-818a-831d3f3900cb</tstamps>
+    </comp>
+    <comp ref="SW1">
+      <value>SW_SPDT</value>
+      <footprint>Mikrokapcsolo:SW_MS0850502F030P1A</footprint>
+      <libsource lib="Switch" part="SW_SPDT" description="Switch, single pole double throw"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="File: DCMotorDriver.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>67b364c8-91c4-48b9-a77a-16bdda91dd3a</tstamps>
+    </comp>
+    <comp ref="U1">
+      <value>TLC555xP</value>
+      <footprint>Package_DIP:DIP-8_W7.62mm</footprint>
+      <datasheet>http://www.ti.com/lit/ds/symlink/tlc555.pdf</datasheet>
+      <libsource lib="Timer" part="TLC555xP" description="Single LinCMOS Timer, 555 compatible, PDIP-8"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="File: DCMotorDriver.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>995410b5-8123-4812-b2e1-40226e8f4f44</tstamps>
+    </comp>
+  </components>
+  <libparts>
+    <libpart lib="Connector" part="Conn_01x02_Female">
+      <description>Generic connector, single row, 01x02, script generated (kicad-library-utils/schlib/autogen/connector/)</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>Connector*:*_1x??_*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">J</field>
+        <field name="Value">Conn_01x02_Female</field>
+        <field name="Datasheet">~</field>
+      </fields>
+      <pins>
+        <pin num="1" name="Pin_1" type="passive"/>
+        <pin num="2" name="Pin_2" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Device" part="LED">
+      <description>Light emitting diode</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>LED*</fp>
+        <fp>LED_SMD:*</fp>
+        <fp>LED_THT:*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">D</field>
+        <field name="Value">LED</field>
+        <field name="Datasheet">~</field>
+      </fields>
+      <pins>
+        <pin num="1" name="K" type="passive"/>
+        <pin num="2" name="A" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Device" part="Q_NMOS_DGS">
+      <description>N-MOSFET transistor, drain/gate/source</description>
+      <docs>~</docs>
+      <fields>
+        <field name="Reference">Q</field>
+        <field name="Value">Q_NMOS_DGS</field>
+        <field name="Datasheet">~</field>
+      </fields>
+      <pins>
+        <pin num="1" name="D" type="passive"/>
+        <pin num="2" name="G" type="input"/>
+        <pin num="3" name="S" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Device" part="R">
+      <description>Resistor</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>R_*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">R</field>
+        <field name="Value">R</field>
+        <field name="Datasheet">~</field>
+      </fields>
+      <pins>
+        <pin num="1" name="" type="passive"/>
+        <pin num="2" name="" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Device" part="R_Potentiometer">
+      <description>Potentiometer</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>Potentiometer*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">RV</field>
+        <field name="Value">R_Potentiometer</field>
+        <field name="Datasheet">~</field>
+      </fields>
+      <pins>
+        <pin num="1" name="1" type="passive"/>
+        <pin num="2" name="2" type="passive"/>
+        <pin num="3" name="3" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Diode" part="1N4001">
+      <description>50V 1A General Purpose Rectifier Diode, DO-41</description>
+      <docs>http://www.vishay.com/docs/88503/1n4001.pdf</docs>
+      <footprints>
+        <fp>D*DO?41*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">D</field>
+        <field name="Value">1N4001</field>
+        <field name="Footprint">Diode_THT:D_DO-41_SOD81_P10.16mm_Horizontal</field>
+        <field name="Datasheet">http://www.vishay.com/docs/88503/1n4001.pdf</field>
+      </fields>
+      <pins>
+        <pin num="1" name="K" type="passive"/>
+        <pin num="2" name="A" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="IXDN609PI" part="IXDN609PI">
+      <description>Gate Drivers 9-Ampere Low-Side Ultrafast MOSFET</description>
+      <docs>http://www.ixysic.com/home/pdfs.nsf/www/IXD_609.pdf/$file/IXD_609.pdf</docs>
+      <fields>
+        <field name="Reference">IC1</field>
+        <field name="Value">IXDN609PI</field>
+        <field name="Footprint">Package_DIP:DIP-8_W7.62mm</field>
+        <field name="Datasheet">http://www.ixysic.com/home/pdfs.nsf/www/IXD_609.pdf/$file/IXD_609.pdf</field>
+        <field name="Description">Gate Drivers 9-Ampere Low-Side Ultrafast MOSFET</field>
+        <field name="Height">4.064</field>
+        <field name="Manufacturer_Name">LITTELFUSE</field>
+        <field name="Manufacturer_Part_Number">IXDN609PI</field>
+        <field name="Mouser Part Number">849-IXDN609PI</field>
+        <field name="Mouser Price/Stock">https://www.mouser.co.uk/ProductDetail/IXYS-Integrated-Circuits/IXDN609PI?qs=8uBHJDVwVqxYtGF1oyTFaw%3D%3D</field>
+        <field name="Arrow Part Number">IXDN609PI</field>
+        <field name="Arrow Price/Stock">https://www.arrow.com/en/products/ixdn609pi/littelfuse?region=nac</field>
+      </fields>
+      <pins>
+        <pin num="1" name="VCC_1" type="passive"/>
+        <pin num="2" name="IN" type="passive"/>
+        <pin num="3" name="NC" type="no_connect"/>
+        <pin num="4" name="GND_1" type="passive"/>
+        <pin num="5" name="GND_2" type="passive"/>
+        <pin num="6" name="OUT_1" type="passive"/>
+        <pin num="7" name="OUT_2" type="passive"/>
+        <pin num="8" name="VCC_2" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Switch" part="SW_SPDT">
+      <description>Switch, single pole double throw</description>
+      <docs>~</docs>
+      <fields>
+        <field name="Reference">SW</field>
+        <field name="Value">SW_SPDT</field>
+        <field name="Datasheet">~</field>
+      </fields>
+      <pins>
+        <pin num="1" name="A" type="passive"/>
+        <pin num="2" name="B" type="passive"/>
+        <pin num="3" name="C" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Timer" part="TLC555xP">
+      <description>Single LinCMOS Timer, 555 compatible, PDIP-8</description>
+      <docs>http://www.ti.com/lit/ds/symlink/tlc555.pdf</docs>
+      <footprints>
+        <fp>DIP*W7.62mm*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">U</field>
+        <field name="Value">TLC555xP</field>
+        <field name="Footprint">Package_DIP:DIP-8_W7.62mm</field>
+        <field name="Datasheet">http://www.ti.com/lit/ds/symlink/tlc555.pdf</field>
+      </fields>
+      <pins>
+        <pin num="1" name="GND" type="power_in"/>
+        <pin num="2" name="TR" type="input"/>
+        <pin num="3" name="Q" type="output"/>
+        <pin num="4" name="R" type="input"/>
+        <pin num="5" name="CV" type="input"/>
+        <pin num="6" name="THR" type="input"/>
+        <pin num="7" name="DIS" type="input"/>
+        <pin num="8" name="VCC" type="power_in"/>
+      </pins>
+    </libpart>
+    <libpart lib="pspice" part="C">
+      <description>Capacitor symbol for simulation only</description>
+      <docs>~</docs>
+      <fields>
+        <field name="Reference">C</field>
+        <field name="Value">C</field>
+        <field name="Datasheet">~</field>
+      </fields>
+      <pins>
+        <pin num="1" name="" type="passive"/>
+        <pin num="2" name="" type="passive"/>
+      </pins>
+    </libpart>
+  </libparts>
+  <libraries>
+    <library logical="Connector">
+      <uri>C:\Program Files\KiCad\6.0\share\kicad\symbols\/Connector.kicad_sym</uri>
+    </library>
+    <library logical="Device">
+      <uri>C:\Program Files\KiCad\6.0\share\kicad\symbols\/Device.kicad_sym</uri>
+    </library>
+    <library logical="Diode">
+      <uri>C:\Program Files\KiCad\6.0\share\kicad\symbols\/Diode.kicad_sym</uri>
+    </library>
+    <library logical="IXDN609PI">
+      <uri>C:/Users/ghost/Desktop/GN/KiCAD_lib/IXDN609PI/KiCad/IXDN609PI.lib</uri>
+    </library>
+    <library logical="Switch">
+      <uri>C:\Program Files\KiCad\6.0\share\kicad\symbols\/Switch.kicad_sym</uri>
+    </library>
+    <library logical="Timer">
+      <uri>C:\Program Files\KiCad\6.0\share\kicad\symbols\/Timer.kicad_sym</uri>
+    </library>
+    <library logical="pspice">
+      <uri>C:\Program Files\KiCad\6.0\share\kicad\symbols\/pspice.kicad_sym</uri>
+    </library>
+  </libraries>
+  <nets>
+    <net code="1" name="GND">
+      <node ref="C1" pin="2" pintype="passive"/>
+      <node ref="C2" pin="2" pintype="passive"/>
+      <node ref="C3" pin="2" pintype="passive"/>
+      <node ref="C4" pin="2" pintype="passive"/>
+      <node ref="C5" pin="2" pintype="passive"/>
+      <node ref="C6" pin="2" pintype="passive"/>
+      <node ref="D5" pin="1" pinfunction="K" pintype="passive"/>
+      <node ref="IC1" pin="4" pinfunction="GND_1" pintype="passive"/>
+      <node ref="IC1" pin="5" pinfunction="GND_2" pintype="passive"/>
+      <node ref="J2" pin="1" pinfunction="Pin_1" pintype="passive"/>
+      <node ref="J3" pin="2" pinfunction="Pin_2" pintype="passive"/>
+      <node ref="Q1" pin="3" pinfunction="S" pintype="passive"/>
+      <node ref="R3" pin="2" pintype="passive"/>
+      <node ref="R4" pin="2" pintype="passive"/>
+      <node ref="U1" pin="1" pinfunction="GND" pintype="power_in"/>
+    </net>
+    <net code="2" name="Net-(C2-Pad1)">
+      <node ref="C2" pin="1" pintype="passive"/>
+      <node ref="U1" pin="5" pinfunction="CV" pintype="input"/>
+    </net>
+    <net code="3" name="Net-(C6-Pad1)">
+      <node ref="C6" pin="1" pintype="passive"/>
+      <node ref="RV1" pin="2" pinfunction="2" pintype="passive"/>
+      <node ref="U1" pin="2" pinfunction="TR" pintype="input"/>
+      <node ref="U1" pin="6" pinfunction="THR" pintype="input"/>
+    </net>
+    <net code="4" name="Net-(D1-Pad1)">
+      <node ref="D1" pin="1" pinfunction="K" pintype="passive"/>
+      <node ref="J1" pin="1" pinfunction="Pin_1" pintype="passive"/>
+      <node ref="J3" pin="1" pinfunction="Pin_1" pintype="passive"/>
+    </net>
+    <net code="5" name="Net-(D1-Pad2)">
+      <node ref="D1" pin="2" pinfunction="A" pintype="passive"/>
+      <node ref="J1" pin="2" pinfunction="Pin_2" pintype="passive"/>
+      <node ref="Q1" pin="1" pinfunction="D" pintype="passive"/>
+    </net>
+    <net code="6" name="Net-(D2-Pad1)">
+      <node ref="D2" pin="1" pinfunction="K" pintype="passive"/>
+      <node ref="D4" pin="2" pinfunction="A" pintype="passive"/>
+      <node ref="R2" pin="2" pintype="passive"/>
+      <node ref="U1" pin="7" pinfunction="DIS" pintype="input"/>
+    </net>
+    <net code="7" name="Net-(D2-Pad2)">
+      <node ref="D2" pin="2" pinfunction="A" pintype="passive"/>
+      <node ref="RV1" pin="1" pinfunction="1" pintype="passive"/>
+    </net>
+    <net code="8" name="Net-(D3-Pad2)">
+      <node ref="D3" pin="2" pinfunction="A" pintype="passive"/>
+      <node ref="SW1" pin="1" pinfunction="A" pintype="passive"/>
+    </net>
+    <net code="9" name="Net-(D4-Pad1)">
+      <node ref="D4" pin="1" pinfunction="K" pintype="passive"/>
+      <node ref="RV1" pin="3" pinfunction="3" pintype="passive"/>
+    </net>
+    <net code="10" name="Net-(D5-Pad2)">
+      <node ref="D5" pin="2" pinfunction="A" pintype="passive"/>
+      <node ref="R5" pin="2" pintype="passive"/>
+    </net>
+    <net code="11" name="Net-(IC1-Pad6)">
+      <node ref="IC1" pin="6" pinfunction="OUT_1" pintype="passive"/>
+      <node ref="IC1" pin="7" pinfunction="OUT_2" pintype="passive"/>
+      <node ref="R1" pin="1" pintype="passive"/>
+    </net>
+    <net code="12" name="Net-(J2-Pad2)">
+      <node ref="J2" pin="2" pinfunction="Pin_2" pintype="passive"/>
+      <node ref="SW1" pin="2" pinfunction="B" pintype="passive"/>
+    </net>
+    <net code="13" name="Net-(Q1-Pad2)">
+      <node ref="Q1" pin="2" pinfunction="G" pintype="input"/>
+      <node ref="R1" pin="2" pintype="passive"/>
+      <node ref="R3" pin="1" pintype="passive"/>
+    </net>
+    <net code="14" name="PWM">
+      <node ref="IC1" pin="2" pinfunction="IN" pintype="passive"/>
+      <node ref="R4" pin="1" pintype="passive"/>
+      <node ref="U1" pin="3" pinfunction="Q" pintype="output"/>
+    </net>
+    <net code="15" name="Vcc">
+      <node ref="C1" pin="1" pintype="passive"/>
+      <node ref="C3" pin="1" pintype="passive"/>
+      <node ref="C4" pin="1" pintype="passive"/>
+      <node ref="C5" pin="1" pintype="passive"/>
+      <node ref="D3" pin="1" pinfunction="K" pintype="passive"/>
+      <node ref="IC1" pin="1" pinfunction="VCC_1" pintype="passive"/>
+      <node ref="IC1" pin="8" pinfunction="VCC_2" pintype="passive"/>
+      <node ref="R2" pin="1" pintype="passive"/>
+      <node ref="R5" pin="1" pintype="passive"/>
+      <node ref="U1" pin="4" pinfunction="R" pintype="input"/>
+      <node ref="U1" pin="8" pinfunction="VCC" pintype="power_in"/>
+    </net>
+    <net code="16" name="unconnected-(IC1-Pad3)">
+      <node ref="IC1" pin="3" pinfunction="NC" pintype="no_connect"/>
+    </net>
+    <net code="17" name="unconnected-(SW1-Pad3)">
+      <node ref="SW1" pin="3" pinfunction="C" pintype="passive"/>
+    </net>
+  </nets>
+</export>
